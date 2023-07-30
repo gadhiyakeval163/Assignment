@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>individual Registration</title>
+    <link rel="stylesheet" href="individualregi.html">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        .ind {
+            width: 600px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 100px;
+            height: 590px;
+            border: 2px solid black;
+            /* box-shadow: 5px 5px 30px black; */
+        }
+
+        .ind h2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 50px;
+            padding: 5px;
+            background-image: linear-gradient(to top, blue, white);
+            color: red;
+        }
+
+        /* Main section */
+        .main {
+            height: 510px;
+            margin: 5px;
+            margin-top: 20px;
+            background-color: skyblue;
+            color: red;
+        }
+
+        .main h4 {
+            color: red;
+        }
+
+        .user label {
+            text-align: right;
+            color: blue;
+            border-color: blue;
+        }
+
+        .user p {
+            color: blue;
+        }
+
+        .submit {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .submit button {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="ind">
+        <h2>individual Registration</h2>
+        <div class="main">
+            <h4>User Particulars</h4>
+            <center>
+
+
+                <div class="user">
+                    <form action="">
+                        <table>
+                            <tr>
+                                <td><label for="">Login ID</label></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="">Password</label></td>
+                                <td><input type="password"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="">Confirm Password</label></td>
+                                <td><input type="text"></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </center>
+            <h4>Personal Particulars</h4>
+            <div class="user">
+                <form action="">
+                    <table>
+                        <tr>
+                            <td><label for="">Salutation</label></td>
+                            <td>
+                                <select name="" id="">
+                                    <option hidden>select</option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select>
+                            </td>
+                            <td><label for="">First Name</label></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Middle Name</label></td>
+                            <td><input type="text"></td>
+                            <td><label for="">Last Name</label></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Resident Status</label></td>
+                            <td> <select name="" id="">
+                                    <option hidden>select</option>
+                                    <option value="">rajkot</option>
+                                    <option value="">ahmdabad</option>
+                                </select></td>
+                            <td><label for="">Country</label></td>
+                            <td> <select name="" id="">
+                                    <option hidden>select</option>
+                                    <option value="">india</option>
+                                    <option value="">America</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Email-id</label></td>
+                            <td><input type="text"></td>
+                            <td><label for="">Mobile Number</label></td>
+                            <td><input type="text"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <h4>Account Particulars</h4>
+            <div class="user">
+                <form action="">
+                    <table>
+                        <tr>
+                            <td><label for="">15 Digit Account No</label></td>
+                            <td><input type="text"></td>
+                            <td><label for="">Nick Name</label></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Fund Transefer</label></td>
+                            <td> <select name="" id="">
+                                    <option hidden>select</option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select></td>
+
+                    </table>
+                </form>
+            </div>
+            <h4>DECLARATION</h4>
+            <div class="user">
+                <p>i have read,understood and here by agree to the Terms and Condition in respect of all product and
+                    <br> channels.
+                </p>
+                <p>I understand that any changes in the terms and COndition applicable to this relationship would be
+                    made <br>
+                    available to me on request at any IOB branches. i confirm that all account under this login name are
+                    <br>
+                    operated singly and in case of joint account operated by either or survivor/ anyone or survivor(s)
+                    under <br>
+                    his/her joint name respectively. i do hereby declare that information furnished in this form is true
+                    to the <br>
+                    best of my knowledge and belief.
+                </p>
+            </div>
+            <div class="submit">
+                <button>Submit</button>
+                <button>Reset</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

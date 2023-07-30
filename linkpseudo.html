@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="linkpseudo.html">
+    <style>
+        /* unvisitedlink */
+        a:link{
+            color: red;
+        }
+        /* visitedlink */
+        a:visited{
+            color: green;
+        }
+        /* mouse overlink */
+        a:hover{
+            color: blueviolet;
+        }
+        /* selectedlink */
+        a:active{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>Styling a link depending in state </h2>
+    <p><b><a href="https://www.amazon.in/" target="_blank">This is a link</a></b></p>
+    <p><b>Note:</b>a:hover Must come after a:link and a:visited in the css definition in order to be effective.</p>
+    <p><b>Note:</b>a:active Mustcome after a:hover in the css definition in order to be effective.</p>
+</body>
+</html>
